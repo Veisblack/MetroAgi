@@ -1,7 +1,10 @@
 # MetroAgi
 Proje adı : MetroAgi
+
 Geliştirici Adı Soyadı : Serkan GEDİKLİ
+
 Projeye bulunduğum katkı : BFS ve A* algoritması geliştirilmesi.
+
 Kullanılan Kütüphaneler : collections,heapq,typing
 
 Metro Ağı projesi 
