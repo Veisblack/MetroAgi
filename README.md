@@ -18,10 +18,15 @@ tüm komşuları dener deneme tamamladıktan sonra hedef noktaya ulaşabilecek e
 Bu sebeple BFS algoritmasının kullanılması en ideal çözümdür.
 
 BFS kodumda nasıl çalışır
+
 1-başlangıç istasyonunu kuyruğa ekler ve ziyaret_edildi listesine alır.
+
 2-Kuyruğun başındaki istasyonu çıkartır bu istasyon hedefse rota döndürülür.
+
 3-istasyonun komşuları kontrol edilr.
+
 4-komşu daha önce ziyaret edilmediyse kuyruğa eklenir.
+
 5-hedefe ulaşana kadar devam eder.
 
 
@@ -34,8 +39,13 @@ Gereksiz düğümleri ziyaret etmez ve zaman kazanır.
 En hızlı ve en az maliyetli yolu belirler.
 
 A* kodumda nasıl çalışır
+
 1-Kuyruk oluşturur ilk düğüm pq içine eklenir.
+
 2-En düşük f(n) değerine sahip istasyon seçilir.
+
 3-Eğer istasyon hedef sonuca eşit olmuşsa sonuc döndürülür.
+
 4-Değilse tüm komşular için heutiristik fonksiyonu hesaplanır ve kuyruğa eklenir.
+
 5-hedefe ulaşana kadar süreç devam eder.
